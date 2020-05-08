@@ -1,0 +1,11 @@
+{
+  "Name": "Kaleb Original NPC",
+  "Author": "LAO",
+  "Description": "Adds in a custom NPC named Kaleb",
+  "Version": "0.1",
+  "UniqueID": "annachibi.KalebNPC",
+  "UpdateKeys": ["Nexus:0"],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

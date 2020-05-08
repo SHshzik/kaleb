@@ -1,0 +1,68 @@
+{
+  "Format": "1.6",
+  "Changes": [
+    //добавляет персонажа в список
+    {
+      "LogName": "NPC Manifestation",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries":
+      {
+        "Kaleb": "adult/neutral/shy/neutral/male/datable/null/Other/winter 13//WizardHouse 6 14 2/Калеб"
+      }
+    },
+    //реакция на подарки
+    {
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries":
+      {
+        "Kaleb": "Это правда мне? Вау! @, я тебя обожаю!/228 394 414 560 577/Тебе удалось сделать этот день чуть лучше./80 82/Эм... спасибо.../304 303 346 348/Прости, но мне не нравятся такие вещи. Еще раз извини./199 218 219 236 207 727/А я думал, что этот день не может стать еще хуже.../149 151 162 148 154 155/"
+      }
+    },
+    //этот блок поясняет, откуда программе брать файлы
+    //портрет
+    {
+      "LogName": "Kaleb Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Kaleb",
+      "FromFile": "assets/portraitKaleb.png"
+    },
+    //спрайт
+    {
+      "LogName": "Kaleb Sprites",
+      "Action": "Load",
+      "Target": "Characters/Kaleb",
+      "FromFile": "assets/charactersKaleb.png"
+    },
+    //диалоги
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Kaleb",
+      "FromFile": "assets/Dialogue.json"
+    },
+    //диалоги после свадьбы
+    {
+      "LogName": "Marriage Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueKaleb",
+      "FromFile": "assets/marriageDialogue.json"
+    },
+    //расписание
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Kaleb",
+      "FromFile": "assets/Schedule.json"
+    },
+    //повторяющиеся диалоги в расписании
+    {
+      "LogName": "Schedule Dialogue",
+      "Action": "Load",
+      "Target": "Strings/schedules/Kaleb",
+      "FromFile": "assets/ScheduleDialogue.json"
+    },
+  ]
+}
