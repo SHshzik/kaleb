@@ -1,5 +1,5 @@
 {
-  "Format": "1.6",
+  "Format": "1.14.0",
   "Changes": [
     //добавляет персонажа в список
     {
@@ -8,7 +8,7 @@
       "Target": "Data/NPCDispositions",
       "Entries":
       {
-        "Kaleb": "adult/neutral/shy/neutral/male/datable/null/Other/winter 13//WizardHouse 6 14 2/Калеб"
+        "Kaleb": "adult/neutral/shy/neutral/male/datable//Other/winter 13//BusStop 13 16/Калеб"
       }
     },
     //реакция на подарки
