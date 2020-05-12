@@ -65,8 +65,8 @@
       "FromFile": "assets/ScheduleDialogue.json"
     },
     {
-      "Logname": "Event",
-      "Action": "Load",
+      "LogName": "Event",
+      "Action": "EditData",
       "Target": "Data/Events/WizardHouse",
       "FromFile": "assets/events/wizard_house.json"
     }
