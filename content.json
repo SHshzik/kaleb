@@ -41,14 +41,14 @@
       "LogName": "Dialogue",
       "Action": "Load",
       "Target": "Characters/Dialogue/Kaleb",
-      "FromFile": "assets/Dialogue.json"
+      "FromFile": "assets/characters/dialogue/Kaleb.json"
     },
     //диалоги после свадьбы
     {
       "LogName": "Marriage Dialogue",
       "Action": "Load",
       "Target": "Characters/Dialogue/MarriageDialogueKaleb",
-      "FromFile": "assets/marriageDialogue.json"
+      "FromFile": "assets/characters/dialogue/MarriageDialogueKaleb.json"
     },
     //расписание
     {
