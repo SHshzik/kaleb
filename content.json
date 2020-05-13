@@ -8,7 +8,7 @@
       "Target": "Data/NPCDispositions",
       "Entries":
       {
-        "Kaleb": "adult/neutral/shy/neutral/male/datable//Other/winter 13//BusStop 13 16/Калеб"
+        "Kaleb": "adult/neutral/shy/neutral/male/datable//Other/winter 13//WizardHouse 5 19/Калеб"
       }
     },
     //реакция на подарки
@@ -68,7 +68,10 @@
       "LogName": "Event",
       "Action": "EditData",
       "Target": "Data/Events/WizardHouse",
-      "FromFile": "assets/events/wizard_house.json"
+      "Entries":
+      {
+        "2128001/f Kaleb 500/t 610 1500": "WizardSong/8 23/farmer 8 24 0 Kaleb 4 19 2 Wizard -100 -100 0/playSound doorClose/move farmer 0 -2 0/speak Kaleb \"Ой, @! Ты напугал меня!\"/pause 2000/speak Kaleb \"Честно говоря я рад, что ты зашел именно сейчас, когда здесь нет учителя...#$b#И когда я решился на такой отчаянный поступок.\"/pause 1000/emote farmer 8/speak Kaleb \"Понимаешь, я устал ждать.#$b#Учитель ничему меня не учит, только заставляет заниматься домашними делами и все время твердит, чтобы я набрался терпения.#$b#Но я приехал сюда не чтобы полы мыть.#$b#Потому я решил взять дело в свои руки...\"/emote Kaleb 12/speak Kaleb \"Наверное ты думаешь, что учитель прав и я действительно слишком спешу. Но на самом деле у меня есть веская причина для спешки.\"/pause 2000/speak Kaleb \"Я несколько дней тайком читал книги учителя и нашел там рецепт этого зелья. Оно должно помочь мне начать видеть духов и усилить мои врожденные способности.#$b#Я дождался, пока учитель уйдет и сварил его. Честно говоря это оказалось не сложно, но… ты же знаешь, я тот еще растяпа.#$b#В общем, я собираюсь его выпить.\"/move farmer 0 -1 0/emote farmer 16/speak Kaleb \"Не останавливай меня, пожалуйста. Я должен это сделать. Ради самого себя.#$b#Просто...#$b#Если со мной что-то случится...#$b#Ха-ха… забавно. Получается, что даже если я отравлюсь и умру, никто не расстроится.\"/emote Kaleb 28/pause 2000/speak Kaleb \"Ну... я пью.\"/shake Kaleb 500/pause 1000/move farmer 0 -2 0/move farmer -3 0 3/playSound doorOpen/wrap Wizard 8 23/emote Wizard 16/pause 4000/end"
+      }
     }
   ]
 }
