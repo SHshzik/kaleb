@@ -27,14 +27,14 @@
       "LogName": "Kaleb Portraits",
       "Action": "Load",
       "Target": "Portraits/Kaleb",
-      "FromFile": "assets/portraitKaleb.png"
+      "FromFile": "assets/portraits/Kaleb.png"
     },
     //спрайт
     {
       "LogName": "Kaleb Sprites",
       "Action": "Load",
       "Target": "Characters/Kaleb",
-      "FromFile": "assets/charactersKaleb.png"
+      "FromFile": "assets/characters/Kaleb.png"
     },
     //диалоги
     {
