@@ -2,6 +2,7 @@ WizardSong
 8 23
 farmer 8 24 0 Kaleb 4 19 2 Wizard -100 -100 0
 skippable
+pause 1000
 playSound doorClose
 move farmer 0 -2 0
 speak Kaleb \"Ой, @! Ты напугал меня!\"
