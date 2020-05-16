@@ -1,0 +1,11 @@
+{
+  "Name": "Sandy at Festivals",
+  "Author": "foggywizard",
+  "Version": "1.0.0",
+  "Description": "Sandy goes to Festivals",
+  "UniqueID": "foggy.SandyFair",
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+    "MinimumVersion": "1.4.2"
+  }
+}
