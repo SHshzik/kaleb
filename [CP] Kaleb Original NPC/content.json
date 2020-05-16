@@ -1,24 +1,5 @@
 {
   "Format": "1.14.0",
-  "festivalSpots": [
-    {
-      "name": "Kaleb",
-      "map": "Beach-Jellies",
-      "position": [87, 40],
-      "direction": 2
-  },
-    {
-      "name": "Kaleb",
-      "map": "Town-Halloween",
-      "position": [23, 67],
-      "direction": 1
-  },
-    {
-      "name": "Kaleb",
-      "map": "Town-Fair",
-      "position": [19, 35],
-      "direction": 1
-  }, ],
   "Changes": [
     //добавляет персонажа в список
     {
