@@ -1,0 +1,12 @@
+nightTime
+47 92
+farmer 47 95 0 Kaleb 47 87 0
+skippable
+addLantern 735 46 86 1
+pause 1000
+faceDirection Kaleb 2
+pause 1000
+speak Kaleb \"Ой, @! Ты напугал меня!\"
+
+
+animate Kaleb false false 100 18 17
