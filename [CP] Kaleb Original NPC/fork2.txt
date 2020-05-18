@@ -1,0 +1,28 @@
+fork Kaleb10-good2 21280052
+speak Kaleb \"Учитель обещал тебе не рассказывать, значит… в тот раз, когда я проснулся в домике ведьмы…#$b#…#$b#Не важно.#$b#Ха-ха, значит мой вопрос не имеет никакого смысла. Свой выбор ты давно уже сделал. #$b#Ох…\"
+showFrame Kaleb 19
+animate farmer true true 100 101
+positionOffset Kaleb 2 0
+pause 50
+positionOffset Kaleb 2 0
+pause 50
+positionOffset Kaleb 2 0
+pause 50
+positionOffset Kaleb 2 0
+pause 50
+positionOffset Kaleb 2 0
+pause 50
+positionOffset Kaleb 2 0
+pause 50
+positionOffset Kaleb 2 0
+pause 50
+positionOffset Kaleb 2 0
+pause 50
+pause 700
+playSound dwop
+specificTemporarySprite heart 2 4
+pause 3000
+globalFade
+viewport -1000 -1000
+pause 1000
+end
