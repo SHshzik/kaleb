@@ -62,5 +62,8 @@ faceDirection Kaleb 2
 speak Kaleb \"Лучше нам не встречаться пару дней. Боюсь наговорить тебе грубостей.\"
 faceDirection Kaleb 0
 pause 500
-move Kaleb 0 -2 0
+move Kaleb 0 -3 0
+move Kaleb 0 -3 0 true
+globalFade
+viewport -1000 -1000
 end
