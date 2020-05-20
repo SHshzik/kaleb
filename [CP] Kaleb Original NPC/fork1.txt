@@ -1,4 +1,3 @@
-fork Kaleb10-good1 21280051
 showFrame Kaleb 19
 animate farmer true true 100 101
 pause 50
