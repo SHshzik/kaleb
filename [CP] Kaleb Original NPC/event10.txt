@@ -1,7 +1,6 @@
 ocean
 46 24
 farmer 46 18 2 Kaleb 45 23 2
-skippable
 addLantern 735 47 86 1
 move farmer 0 5 2
 pause 1000
