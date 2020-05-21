@@ -34,4 +34,5 @@ globalFade
 viewport -1000 -1000
 pause 1000
 speak Kaleb \"Ничего, если мы побудем здесь подольше?#$b#Я? Со мной все будет хорошо.#$b#От счастья не умираю.\"
+mail kalebHeart10plus
 end

@@ -28,5 +28,6 @@ positionOffset Kaleb 2 0
 pause 750
 playSound dwop
 specificTemporarySprite heart 45 21
+mail kalebHeart10plus
 pause 3000
 end
