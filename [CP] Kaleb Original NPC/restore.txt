@@ -5,6 +5,7 @@ skippable
 addTemporaryActor Witch 16 32 4 18 1
 removeItem 64
 removeQuest 21280081
+addQuest 21280082
 pause 500
 playSound doorClose
 warp farmer 8 24 0
