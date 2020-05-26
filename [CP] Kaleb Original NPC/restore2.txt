@@ -43,4 +43,6 @@ speak Kaleb \"И еще раз спасибо за все.\"
 faceDirection Kaleb 0
 speed Kaleb 4
 move Kaleb 0 -6 0
+question fork0 \"Что же мне делать?#Посмотреть на ритуал#Вернуться на ферму\"
+fork continue
 end
