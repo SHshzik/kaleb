@@ -48,6 +48,102 @@
       "Target": "Characters/Witch",
       "FromFile": "assets/characters/Witch.png"
     },
+    {
+      "LogName": "Skeleton Sprites",
+      "Action": "Load",
+      "Target": "Characters/Monsters/Skeleton0",
+      "FromFile": "assets/characters/monsters/Skeleton0.png"
+    },
+    {
+      "LogName": "Skeleton Sprites",
+      "Action": "Load",
+      "Target": "Characters/Monsters/Skeleton1",
+      "FromFile": "assets/characters/monsters/Skeleton1.png"
+    },
+    {
+      "LogName": "Skeleton Sprites",
+      "Action": "Load",
+      "Target": "Characters/Monsters/Skeleton2",
+      "FromFile": "assets/characters/monsters/Skeleton2.png"
+    },
+    {
+      "LogName": "Skeleton Sprites",
+      "Action": "Load",
+      "Target": "Characters/Monsters/Skeleton3",
+      "FromFile": "assets/characters/monsters/Skeleton3.png"
+    },
+    {
+      "LogName": "Skeleton Sprites",
+      "Action": "Load",
+      "Target": "Characters/Monsters/Skeleton4",
+      "FromFile": "assets/characters/monsters/Skeleton4.png"
+    },
+    {
+      "LogName": "Skeleton Sprites",
+      "Action": "Load",
+      "Target": "Characters/Monsters/Skeleton5",
+      "FromFile": "assets/characters/monsters/Skeleton5.png"
+    },
+    {
+      "LogName": "Skeleton Sprites",
+      "Action": "Load",
+      "Target": "Characters/Monsters/Skeleton6",
+      "FromFile": "assets/characters/monsters/Skeleton6.png"
+    },
+    {
+      "LogName": "Skeleton Sprites",
+      "Action": "Load",
+      "Target": "Characters/Monsters/Skeleton7",
+      "FromFile": "assets/characters/monsters/Skeleton7.png"
+    },
+    {
+      "LogName": "Mummy Sprites",
+      "Action": "Load",
+      "Target": "Characters/Monsters/Mummy0",
+      "FromFile": "assets/characters/monsters/Mummy0.png"
+    },
+    {
+      "LogName": "Mummy Sprites",
+      "Action": "Load",
+      "Target": "Characters/Monsters/Mummy1",
+      "FromFile": "assets/characters/monsters/Mummy1.png"
+    },
+    {
+      "LogName": "Shadow Shaman Sprites",
+      "Action": "Load",
+      "Target": "Characters/Monsters/ShadowShaman0",
+      "FromFile": "assets/characters/monsters/ShadowShaman0.png"
+    },
+    {
+      "LogName": "Shadow Brute Sprites",
+      "Action": "Load",
+      "Target": "Characters/Monsters/ShadowBrute0",
+      "FromFile": "assets/characters/monsters/ShadowBrute0.png"
+    },
+    {
+      "LogName": "Shadow Brute Sprites",
+      "Action": "Load",
+      "Target": "Characters/Monsters/StoneGolem0",
+      "FromFile": "assets/characters/monsters/StoneGolem0.png"
+    },
+    {
+      "LogName": "Shadow Brute Sprites",
+      "Action": "Load",
+      "Target": "Characters/Monsters/StoneGolem1",
+      "FromFile": "assets/characters/monsters/StoneGolem1.png"
+    },
+    {
+      "LogName": "Shadow Brute Sprites",
+      "Action": "Load",
+      "Target": "Characters/Monsters/StoneGolem2",
+      "FromFile": "assets/characters/monsters/StoneGolem2.png"
+    },
+    {
+      "LogName": "Shadow Brute Sprites",
+      "Action": "Load",
+      "Target": "Characters/Monsters/StoneGolem3",
+      "FromFile": "assets/characters/monsters/StoneGolem3.png"
+    },
     //диалоги
     {
       "LogName": "Dialogue",
