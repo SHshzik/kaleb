@@ -11,7 +11,7 @@ addTemporaryActor Skeleton3 16 32 18 24 0 false Monster
 addTemporaryActor Skeleton4 16 32 17 22 1 false Monster
 addTemporaryActor Skeleton5 16 32 18 21 2 false Monster
 addTemporaryActor Skeleton6 16 32 22 23 3 false Monster
-addTemporaryActor Skeleton6 16 32 22 21 2 false Monster
+addTemporaryActor Skeleton7 16 32 22 21 2 false Monster
 addTemporaryActor Mummy0 16 32 21 24 0 false Monster
 addTemporaryActor Mummy1 16 32 22 22 2 false Monster
 addTemporaryActor ShadowShaman0 16 24 18 23 1 false Monster
@@ -21,11 +21,12 @@ addTemporaryActor StoneGolem1 16 24 22 24 0 false Monster
 addTemporaryActor StoneGolem2 16 24 23 22 0 false Monster
 addTemporaryActor StoneGolem3 16 24 21 21 2 false Monster
 warp Kaleb 20 23 2
+playSound spirits_eve
 viewport 20 42
 warp farmer 20 42 0
-playSound stoneStep
-playSound stoneStep
-playSound stoneStep
+playSound ghost
+playSound batScreech
+playSound rockGolemDie
 speed farmer 4
 viewport move 0 -5 4000
 move farmer 0 -3 0
@@ -33,22 +34,31 @@ move farmer 1 0 0
 move farmer 0 -8 0
 move farmer -1 0 0
 move farmer 0 -3 0
+pause 1000
 move ShadowShaman0 1 0 1
+playSound skeletonStep
+pause 500
 move Skeleton6 -1 0 3
+playSound skeletonStep
+playSound ghost
 move ShadowBrute0 1 0 1
+playSound skeletonStep
+playSound batScreech
 faceDirection Skeleton1 2
 pause 500
 move Skeleton1 0 1 2
+playSound skeletonStep
+playSound rockGolemDie
 startJittering
 pause 500
 stopJittering
 message \"Их слишком много, нужно спасаться!\"
+viewport move 0 5 3000
+pause 500
 move farmer 0 3 2
 move farmer 1 0 2
 move farmer 0 5 2
-viewport move 0 5 4000
 emote farmer 28
-message \"Нет, нельзя его там одного бросать. Надо хотя бы попробовать отбиться!\"
 warp Skeleton0 -100 -101
 warp Skeleton1 -100 -102
 warp Skeleton2 -100 -103
@@ -56,20 +66,24 @@ warp Skeleton3 -100 -104
 warp Skeleton4 -100 -105
 warp Skeleton5 -100 -106
 warp Skeleton6 -100 -107
-warp Skeleton6 -100 -108
+warp Skeleton7 -100 -108
 warp Mummy0 -100 -109
 warp Mummy1 -100 -110
 warp ShadowShaman0 -100 -111
+warp ShadowBrute0 -100 -116
 warp StoneGolem0 -100 -112
 warp StoneGolem1 -100 -113
 warp StoneGolem2 -100 -114
 warp StoneGolem3 -100 -115
 warp Kaleb -100 -120
+playSound death
+message \"Нет, нельзя его там одного бросать. Надо хотя бы попробовать отбиться!\"
+viewport move 0 -5 3000
+pause 500
+addObject 20 23 561
 move farmer 0 -5 0
 move farmer -1 0 0
-move farmer 0 3 0
-viewport move 0 -5 4000
-addObject 20 23 561
+move farmer 0 -3 0
 emote farmer 8
 message \"Ничего не понимаю... надеюсь все идет как должно...\"
 speed farmer 0
@@ -87,7 +101,7 @@ playSound wand
 addObject 22 23 567
 pause 500
 playSound wand
-addObject 21 24 64
+addObject 21 24 62
 pause 500
 playSound wand
 addObject 19 24 66
@@ -103,7 +117,7 @@ showFrame Kaleb 40
 speak Kaleb \"@? Ты здесь?$8#$b#Такое странное чувство... я что, умер?$8\"
 shake Kaleb 500
 speak Kaleb \"Кх... а нет, вряд ли. Мертвым же не бывает больно, да?$8\"
-pause
+pause 500
 playSound breakingGlass
 removeSprite 19 22
 pause 500
@@ -128,21 +142,21 @@ pause 500
 playSound breakingGlass
 removeSprite 19 24
 pause 500
-showFrame Kaleb 43
+showFrame Kaleb 44
 playSound fallDown
 pause 500
-showFrame Kaleb 44
+showFrame Kaleb 45
 pause 500
 emote farmer 8
 pause 200
-showFrame Kaleb 45
+showFrame Kaleb 46
 speak Kaleb \"Кажется все закончилось.$11#$b#Кожа такая странная. И тело легкое.$11#$b#А еще чего-то не хватает$11#$b#...$11#$b#Тоесть, не педумай, ничего такого! Я хорошо себя чувствую. Лучше, чем когда-либо.$11#$b#А...$11#$b#Точно, моя магия...$11#$b#Теперь я понимаю, как ее было много раньше. Иногда мне начинало казаться, что голова вот-вот лопнет. Будто все твое тело - слишком сильно накаченный воздушный шарик.$11\"
 playSound breakingGlass
 removeSprite 18 23
 pause 500
-showFrame Kaleb 43
+showFrame Kaleb 44
 speak Kaleb \"Вот теперь все точно на месте.$11#$b#Уф. Это было странно...$11\"
-showFrame Kaleb 46
+showFrame Kaleb 47
 speak Kaleb \"Спасибо, что побыл со мной. Если бы не ты - я бы, наверное, запаниковал.$11#$b#Ну? Как тебе мое новое тело? Как по мне внешне оно такое же, как раньше. Только волосы почему-то выросли.$11#$b#...$11#$b#Упс! Где моя одежда?$12#$b#Н... не смотри, пожалуйста! Давай лучше вернемся в башню поскорее.$12\"
 emote farmer 32
 end
