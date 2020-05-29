@@ -217,6 +217,12 @@
       "Target": "Data/Events/WizardHouse",
       "FromFile": "assets/data/events/wizard_house.json"
     },
+    {
+      "LogName": "Event",
+      "Action": "EditData",
+      "Target": "Data/Events/BusStop",
+      "FromFile": "assets/data/events/bus_stop.json"
+    },
     // Wizard Dialogue
     {
       "LogName": "Wizard Dialogue",
